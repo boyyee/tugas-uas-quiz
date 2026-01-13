@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Quis </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <h1>Kuis Online</h1>
+
+  <form id="quizForm">
+
+    <div class="question">
+      <p>1. Apakah sekerang ini ada agama yang bener selain islam?</p>
+      <label><input type="radio" name="q1" value="a"> Tidak ada </label>
+      <label><input type="radio" name="q1" value="b"> Ada </label>
+      <label><input type="radio" name="q1" value="c"> Tidak tahu</label>
+      <label><input type="radio" name="q1" value="d"> Ada yang tahu</label>
+    </div>
+
+    <div class="question">
+      <p>2. Dari mana anda tahu Allah itu ada?</p>
+      <label><input type="radio" name="q2" value="a"> Dari ustadz</label>
+      <label><input type="radio" name="q2" value="b"> Dari Al qur'an</label>
+      <label><input type="radio" name="q2" value="c"> Dari menyampaikan melihat alam</label>
+      <label><input type="radio" name="q2" value="d"> Dari orang tua</label>
+    </div>
+
+    <div class="question">
+      <p>3. Apakah islam mengatur politik pemerintahan?</p>
+      <label><input type="radio" name="q3" value="a"> Bisa jadi</label>
+      <label><input type="radio" name="q3" value="b"> Tidak</label>
+      <label><input type="radio" name="q3" value="c"> Tidak tahu</label>
+      <label><input type="radio" name="q3" value="d"> Ya</label>
+    </div>
+
+    <div class="question">
+      <p>4. Apakah demokrasi bertentangan dengan islam?</p>
+      <label><input type="radio" name="q4" value="a"> Bertentangan</label>
+      <label><input type="radio" name="q4" value="b"> Tidak bertentangan</label>
+      <label><input type="radio" name="q4" value="c"> Tidak tahu</label>
+      <label><input type="radio" name="q4" value="d"> Mutawatir</label>
+    </div>
+
+    <div class="question">
+      <p>5. Bila indonesia direrapkan syariat islam makan akan?</p>
+      <label><input type="radio" name="q5" value="a"> Makin kacau dan miskin </label>
+      <label><input type="radio" name="q5" value="b"> Makin sejahtera dan damai </label>
+      <label><input type="radio" name="q5" value="c"> Tidak tahu</label>
+      <label><input type="radio" name="q5" value="d"> Bertentangan</label>
+    </div>
+
+    <button type="button" onclick="cekJawaban()">Submit</button>
+    <button type="button" onclick="ulangKuis()">Ulangi Kuis</button>
+
+  </form>
+
+  <h2 id="hasil"></h2>
+
+  
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
